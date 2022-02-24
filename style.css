@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,  html {
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.center .avatar img {
+    border: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+
+.center {
+    width: 55%;
+    background-color: black;
+    height: 60vh;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+h2,
+p {
+    font-weight: lighter;
+    letter-spacing: normal;
+    width: 70%;
+    margin: 10px auto;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 { 
+    margin-top: 20px;
+}
+
+div.social i{
+    padding: 0 10px;
+    font-size: 30px;
+    color: black;
+    transition: 0.5s;
+}
+
+div.social i:hover {
+    color: rgba(255, 255, 255, 1);
+}
