@@ -127,7 +127,9 @@
 }
 #project1{
     background-image: url("./assets/img/screenshot1Proj.png");
-    
+}
+#project2{
+    background-image: url("./assets/img/screenshot2Proj.png");
 }
 #contact ul{
     display: flex;
