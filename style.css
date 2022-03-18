@@ -131,6 +131,9 @@
 #project2{
     background-image: url("./assets/img/screenshot2Proj.png");
 }
+#project3{
+    background-image: url("./assets/img/screenshot3Proj.png");
+}
 #contact ul{
     display: flex;
     justify-content: center;
